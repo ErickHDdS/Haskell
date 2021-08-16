@@ -1,0 +1,10 @@
+trocarCaixaCompleto :: Int -> [Int]
+trocarCaixaCompleto 0 = []
+trocarCaixaCompleto a
+ | a >= 100 = trocarCaixaCompleto (a-100) ++ [100]
+ | a >= 50 = trocarCaixaCompleto (a-50) ++ [50]
+ | a >= 20 = trocarCaixaCompleto (a-20) ++ [20]
+ | a >= 10 = trocarCaixaCompleto (a-10) ++ [10]
+ | a >= 5 = trocarCaixaCompleto (a-5) ++ [5]
+ | a >= 2 = trocarCaixaCompleto (a-2) ++ [2]
+ | a >= 1 = trocarCaixaCompleto (a-1) ++ [1]
