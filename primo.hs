@@ -9,3 +9,5 @@ primo 0 = False
 primo 1 = False
 primo x
  | otherwise = recursividadePrimo x (x `div` 2)
+
+-- Verificacao matematica se um numero e primo ou nao

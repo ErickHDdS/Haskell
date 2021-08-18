@@ -9,3 +9,5 @@ perfeito 0 = False
 perfeito a
  | analisaNumeroPerfeito a [1, 2..a] == a = True
  | otherwise = False
+
+-- Verificacao matematica se um numero e perfeito ou nao 

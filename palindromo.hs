@@ -12,3 +12,5 @@ palindromo [] = True
 palindromo a 
  | verifica a (inverso a) = True
  | otherwise = False 
+
+-- inverte o vetor e verifica se o vetor original e o invertido sao iguais 

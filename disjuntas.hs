@@ -10,3 +10,6 @@ disjuntas [] b = True
 disjuntas (a:b) x
  | verificaDisjuntas a x = False
  | otherwise = disjuntas b x
+
+-- Se verificar que o vetor retora verdade, logo existe um elemento igual
+-- Sendo assim, nao e disjunta 

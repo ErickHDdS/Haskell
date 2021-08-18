@@ -6,3 +6,5 @@ trocar a
  | a >= 10 = trocar (a-10) ++ [10]
  | a >= 5 = trocar (a-5) ++ [5]
  | a >= 1 = trocar (a-1) ++ [1]
+
+-- Adicionando em um vetor o valor da nota que deve ser entregue

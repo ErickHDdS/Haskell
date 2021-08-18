@@ -9,3 +9,6 @@ distintos [] = True
 distintos (a:x)
  | verificaVetor a x = False
  | otherwise = distintos x
+
+-- Se verificar que o vetor retora verdade, logo existe um elemento igual
+-- Sendo assim, nao e distinto
