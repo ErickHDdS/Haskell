@@ -1,4 +1,6 @@
+somando :: [Int] -> [Int] -> Int -> [Int]
+somando [] b c = b
+somando (a:x) b s = somando x (b ++[s + a]) (s + a)
+
 somaParciais :: [Int] -> [Int]
-somaParciais [] = [0]
-somaParciais [a] = [a]
-somaParciais (a:x) = [a + b | b <- 0:somaParciais x]
+somaParciais x = somando x [] 0
